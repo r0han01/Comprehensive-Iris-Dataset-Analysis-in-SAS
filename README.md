@@ -1,4 +1,12 @@
 # Iris Dataset Analysis in SAS
+- Below are the visualizations and analyses performed on the Iris dataset, showcasing descriptive statistics, distributions, clustering, and PCA results
+- ![download](https://github.com/user-attachments/assets/87036b06-7b53-4dbe-9fd4-c7d8f5107ee6)
+- ![download](https://github.com/user-attachments/assets/b4a0a6a9-f593-4d4a-9fb5-1f9e7b9d8650)
+- ![download](https://github.com/user-attachments/assets/b6ca4d11-0413-4f1b-a210-aa89a756b143)
+- ![download](https://github.com/user-attachments/assets/78afd518-e9b2-4911-8725-cd8b2d3a831f)
+- ![download](https://github.com/user-attachments/assets/94e0158a-2a42-42fc-837b-134e5cd1bc0f)
+- ![download](https://github.com/user-attachments/assets/71560afb-1763-4486-a441-7cafa87c0ced)
+
 
 This project provides a comprehensive exploration and analysis of the famous Iris dataset using SAS. Below is a summary of the steps performed and insights derived.
 
@@ -20,25 +28,21 @@ This project provides a comprehensive exploration and analysis of the famous Iri
 ## **3. Missing Data Analysis**
 - Checked for missing values in the dataset.
 - Imputed missing values using the mean of respective columns.
-  - **Put Image: Missing Data Check and Imputation**
 
 ---
 
 ## **4. Frequency Distribution of Species**
 - Displayed a count of each species to understand the dataset's class distribution.
-  - **Put Image: Frequency Distribution Chart**
 
 ---
 
 ## **5. Data Summary by Species**
 - Generated summary statistics grouped by species to explore variations.
-  - **Put Image: Summary Statistics by Species**
 
 ---
 
 ## **6. Pairwise Correlation Analysis**
 - Calculated correlations between numeric variables to understand relationships.
-  - **Put Image: Correlation Matrix**
 
 ---
 
@@ -47,13 +51,11 @@ This project provides a comprehensive exploration and analysis of the famous Iri
   - **Sepal Area:** Calculated as `SepalLength * SepalWidth`.
   - **Petal Area:** Calculated as `PetalLength * PetalWidth`.
 - These features provide insights into the size-based characteristics of flowers.
-  - **Put Image: New Dataset with Added Columns**
 
 ---
 
 ## **8. Scatter Plot Matrix**
 - Created scatter plots for all numeric variables, grouped by species, to visualize relationships and clustering.
-  - **Put Image: Scatter Plot Matrix**
 
 ---
 
@@ -62,7 +64,6 @@ This project provides a comprehensive exploration and analysis of the famous Iri
   - **Sepal Length by Species**
   - **Petal Length by Species**
 - Box plots highlight differences across species.
-  - **Put Image: Box Plots**
 
 ---
 
@@ -71,26 +72,22 @@ This project provides a comprehensive exploration and analysis of the famous Iri
   - **Sepal Length**
   - **Petal Length**
 - These distributions were grouped by species.
-  - **Put Image: Histograms**
 
 ---
 
 ## **11. Principal Component Analysis (PCA)**
 - Reduced dimensionality of the dataset and plotted the first two principal components to visualize clustering.
-  - **Put Image: PCA Scatter Plot**
 
 ---
 
 ## **12. Clustering Analysis**
 - Performed clustering to group flowers into three clusters based on their features.
 - Plotted clusters using Sepal dimensions.
-  - **Put Image: Clustering Scatter Plot**
 
 ---
 
 ## **13. Correlation Heatmap**
 - Visualized correlations between numeric variables in a heatmap for easy interpretation.
-  - **Put Image: Heatmap of Correlations**
 
 ---
 
